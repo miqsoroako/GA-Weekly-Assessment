@@ -8,9 +8,9 @@ const myAge = age => {
     console.log(`kamu ${str}`)
 }
 
-myAge(2)        // output: ''kamu muda'
-myAge(15)       // output: ''kamu remaja'
-myAge(50)       // output: ''kamu dewasa'
-myAge(300)      // output: ''kamu tua'
-myAge(-1)       // output: ''kamu error'
-myAge('aneh')   // output: ''kamu error'
+myAge(2)        // output: 'kamu muda'
+myAge(15)       // output: 'kamu remaja'
+myAge(50)       // output: 'kamu dewasa'
+myAge(300)      // output: 'kamu tua'
+myAge(-1)       // output: 'kamu error'
+myAge('aneh')   // output: 'kamu error'
