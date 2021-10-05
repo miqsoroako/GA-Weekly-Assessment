@@ -5,12 +5,10 @@ const myAge = age => {
     else if (age > 12) {str = 'remaja'}
     else if (age > 0) {str = 'muda'}
     else {str = 'error'}
-    console.log(`kamu ${str}`)
+    return (`kamu ${str}`)
 }
 
-myAge(2)        // output: 'kamu muda'
-myAge(15)       // output: 'kamu remaja'
-myAge(50)       // output: 'kamu dewasa'
-myAge(300)      // output: 'kamu tua'
-myAge(-1)       // output: 'kamu error'
-myAge('aneh')   // output: 'kamu error'
+// test
+const input = [2,15,50,300,-1,'aneh']
+
+input.forEach(x => console.log(myAge(x)))
